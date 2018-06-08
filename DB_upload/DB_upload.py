@@ -50,9 +50,9 @@ Dset = os.listdir(path)[5]
 
 
         # connector
-        connection = MySQLdb.connect(host ='163.152.184.98',
+        connection = MySQLdb.connect(host ='163.152.184.xx',
                          user='root',
-                         password='1225')
+                         password='xxxx')
         c = connection.cursor()
 
 
